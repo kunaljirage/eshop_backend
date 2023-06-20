@@ -8,7 +8,7 @@ const router=express.Router();
 router.get("/createadmin", function(req, res) {
     const newuser = new UserModel({
         name: "kunal",
-        email: "kunal@12",
+        email: "kunal@12345",
         password: "1234",
         isAdmin: true
 
